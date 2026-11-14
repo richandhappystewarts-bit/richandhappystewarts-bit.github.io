@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Penny Expense Mail is a private household tool that turns bank-alert emails into expense records.">
+  <title>Penny Expense Mail</title>
+  <style>body{max-width:740px;margin:64px auto;padding:0 24px;background:#fafbf8;color:#23352b;font:18px/1.65 system-ui,sans-serif}h1,h2{line-height:1.2}h1{font-size:2.5rem}h2{margin-top:36px;font-size:1.3rem}a{color:#176343}footer{margin-top:48px;padding-top:20px;border-top:1px solid #d5ded4;font-size:.9rem}.eyebrow{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:#526858}</style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">A private household expense tool</p>
+    <h1>Penny Expense Mail</h1>
+    <p>Penny helps the Stewart household record purchases from bank-alert emails in its existing personal expense tracker.</p>
+    <h2>How it works</h2>
+    <p>Bank alerts are forwarded to a dedicated Gmail inbox. An authorized connection retrieves new messages and passes them to Penny, an assistant running in OpenClaw on a privately managed server. Penny uses an AI service to identify transaction facts, apply the household's expense rules, and update its expense records.</p>
+    <p>Expense confirmations and questions are sent to the household's existing private Telegram group.</p>
+    <h2>Why Gmail access is needed</h2>
+    <p>The connection requests Gmail read-only access to retrieve the forwarded bank alerts and receive mailbox-change notifications. The permission applies to the dedicated mailbox; the workflow watches its Inbox. It does not request permission to send, edit, label, archive, or delete email.</p>
+    <h2>Personal use</h2>
+    <p>This is a household automation, not a public signup service. This website explains the tool and its data practices; it does not collect bank details or provide access to expense records.</p>
+    <p>Read the <a href="privacy.html">privacy policy</a> for details about processing, storage, and revoking access.</p>
+    <p>Contact: <a href="mailto:richandhappystewarts@gmail.com">richandhappystewarts@gmail.com</a></p>
+  </main>
+  <footer>Penny Expense Mail · <a href="privacy.html">Privacy policy</a></footer>
+</body>
+</html>
